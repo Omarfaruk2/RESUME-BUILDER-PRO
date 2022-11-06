@@ -1,8 +1,8 @@
-import React from "react";
+import React from "react"
 
-import resumeSvg from "../../assets/resume.svg";
+import resumeSvg from "../../assets/resume.svg"
 
-import styles from "./Header.module.css";
+import styles from "./Header.module.css"
 
 function Header() {
   return (
@@ -19,7 +19,7 @@ function Header() {
         <img src={resumeSvg} alt="Resume" />
       </div>
     </div>
-  );
+  )
 }
 
-export default Header;
+export default Header

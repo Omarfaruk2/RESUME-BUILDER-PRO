@@ -1,9 +1,13 @@
-import React from "react";
+import React from "react"
 
-import Header from "./components/Header/Header";
-import Body from "./components/Body/Body";
+import Header from "./components/Header/Header"
+import Body from "./components/Body/Body"
+import "./App.css"
+import AOS from 'aos'
+import 'aos/dist/aos.css' // You can also use <link> for styles
+// ..
+AOS.init()
 
-import "./App.css";
 
 function App() {
   return (
@@ -11,7 +15,7 @@ function App() {
       <Header />
       <Body />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
